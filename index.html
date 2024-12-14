@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>我的个人简介 / My Personal Profile</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img class="profile-pic" src="images/profile.jpg" alt="Profile Picture" />
+            <h1 id="name" data-zh="您的姓名" data-en="Your Name">您的姓名</h1>
+            <h2 id="title" data-zh="职位/专业" data-en="Your Title/Profession">职位/专业</h2>
+        </div>
+        <button id="lang-toggle">ENGLISH</button>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h3 data-zh="自我介绍" data-en="About Me">自我介绍</h3>
+            <p id="intro-text" data-zh="这里是您的自我介绍，用简洁清晰的文字描述您的背景、兴趣与职业目标。"
+               data-en="This is your self-introduction. Briefly describe your background, interests, and career goals here.">
+               这里是您的自我介绍，用简洁清晰的文字描述您的背景、兴趣与职业目标。
+            </p>
+        </section>
+
+        <section class="experience">
+            <h3 data-zh="工作经历" data-en="Work Experience">工作经历</h3>
+            <ul id="experience-list">
+                <li>
+                    <h4 data-zh="公司名称 / 职位 (起止时间)" data-en="Company Name / Position (Time)">公司名称 / 职位 (起止时间)</h4>
+                    <p data-zh="在这里描述您的工作职责、成就与经验。" 
+                       data-en="Describe your responsibilities, achievements, and experience at this company.">
+                       在这里描述您的工作职责、成就与经验。
+                    </p>
+                </li>
+                <li>
+                    <h4 data-zh="公司名称 / 职位 (起止时间)" data-en="Company Name / Position (Time)">公司名称 / 职位 (起止时间)</h4>
+                    <p data-zh="在这里描述您的工作职责、成就与经验。" 
+                       data-en="Describe your responsibilities, achievements, and experience at this company.">
+                       在这里描述您的工作职责、成就与经验。
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h3 data-zh="教育背景" data-en="Education">教育背景</h3>
+            <ul id="education-list">
+                <li>
+                    <h4 data-zh="学校名称 / 专业 / 学位 (起止时间)" data-en="University / Major / Degree (Time)">学校名称 / 专业 / 学位 (起止时间)</h4>
+                    <p data-zh="在这里描述您的课程重点、研究项目和学术成就。" 
+                       data-en="Describe your main courses, research projects, and academic achievements.">
+                       在这里描述您的课程重点、研究项目和学术成就。
+                    </p>
+                </li>
+                <li>
+                    <h4 data-zh="学校名称 / 专业 / 学位 (起止时间)" data-en="University / Major / Degree (Time)">学校名称 / 专业 / 学位 (起止时间)</h4>
+                    <p data-zh="在这里描述您的课程重点、研究项目和学术成就。" 
+                       data-en="Describe your main courses, research projects, and academic achievements.">
+                       在这里描述您的课程重点、研究项目和学术成就。
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h3 data-zh="技能" data-en="Skills">技能</h3>
+            <ul>
+                <li data-zh="技能1" data-en="Skill 1">技能1</li>
+                <li data-zh="技能2" data-en="Skill 2">技能2</li>
+                <li data-zh="技能3" data-en="Skill 3">技能3</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h3 data-zh="联系方式" data-en="Contact Information">联系方式</h3>
+            <p data-zh="邮箱: your.email@example.com" data-en="Email: your.email@example.com">邮箱: your.email@example.com</p>
+            <p data-zh="电话: +86 1234567890" data-en="Phone: +86 1234567890">电话: +86 1234567890</p>
+            <p data-zh="地址: 您的地址" data-en="Address: Your Address">地址: 您的地址</p>
+        </section>
+    </main>
+    <footer>
+        <p data-zh="©2024 您的姓名" data-en="©2024 Your Name">©2024 您的姓名</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
